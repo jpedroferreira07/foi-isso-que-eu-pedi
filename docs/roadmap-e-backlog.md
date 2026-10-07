@@ -1,0 +1,83 @@
+# Roadmap e backlog do produto
+
+O roadmap foi montado no Miro e organiza o trabalho em **temas → épicos → histórias de usuário**, no formato "Como [persona], eu quero [ação], para que [benefício]". A exportação completa está em [roadmap-e-visao-do-produto.csv](roadmap-e-visao-do-produto.csv).
+
+A coluna **Sprint** indica em que sprint a história entrou no Sprint Backlog e foi entregue. Algumas voltaram em mais de uma sprint porque ficaram pendentes.
+
+## Tema 1. Jogo analógico de Engenharia de Prompt Ética
+
+### Épico 1.1. Conteúdo pedagógico
+
+| ID | História | Sprint |
+| --- | --- | --- |
+| 1.1.1 | Como cliente, eu quero que o jogo ensine a estrutura de um prompt (contexto, persona, tarefa, formato e instrução objetiva), para que os estudantes aprendam a montar prompts eficazes. | 2 |
+| 1.1.2 | Como cliente, eu quero que o jogo trabalhe conceitos, dores, necessidades, localização e documentos como elementos do prompt, para que os estudantes adaptem o pedido à realidade da escola. | 3 |
+| 1.1.3 | Como cliente, eu quero que o jogo ensine ética (vieses, dados sensíveis, boas práticas e LGPD), para que os estudantes usem IA de forma responsável. | 3 |
+| 1.1.4 | Como estudante, eu quero desafios em níveis crescentes de dificuldade, para que eu evolua do básico ao avançado. | 3 |
+
+### Épico 1.2. Design de mecânicas com os padrões de Björk
+
+| ID | História | Sprint |
+| --- | --- | --- |
+| 1.2.1 | Como cliente, eu quero mecânicas baseadas nos padrões de Björk et al. (2003), para que o design do jogo seja fundamentado. | 2 |
+| 1.2.2 | Como estudante, eu quero objetivo, regras e pontuação claros, com resposta imediata sobre meu desempenho, para que eu saiba como estou me saindo. | 2 |
+| 1.2.3 | Como estudante, eu quero jogar em grupo com papéis diferentes, para que eu coopere e aprenda com os colegas. | 3 |
+
+### Épico 1.3. Prototipagem e validação do jogo físico
+
+| ID | História | Sprint |
+| --- | --- | --- |
+| 1.3.1 | Como cliente, eu quero um protótipo de baixa fidelidade (cartões de papel e rascunho do tabuleiro), para que a equipe teste a ideia cedo. | 2 |
+| 1.3.2 | Como cliente, eu quero um playtest interno inicial, para que as falhas das mecânicas apareçam cedo. | 2 → 3 |
+| 1.3.3 | Como estudante, eu quero cartas impressas e regras refinadas, para que eu jogue uma versão próxima da final, sem internet. | 3 |
+| 1.3.4 | Como cliente, eu quero um MVP do jogo analógico pronto para playtest externo, para que outra equipe possa validá-lo. | 4 |
+| 1.3.5 | Como cliente, eu quero um playtest com outra equipe e a coleta de feedback, para que o jogo seja ajustado com base em uso real. | 4 → 5 |
+| 1.3.6 | Como cliente, eu quero o jogo analógico finalizado, para que eu receba um protótipo funcional usável sem internet. | 5 |
+
+### Épico 1.4. Manual do Professor
+
+| ID | História | Sprint |
+| --- | --- | --- |
+| 1.4.1 | Como professor, eu quero um manual com as regras e o passo a passo da aula, para que eu conduza o jogo sem treinamento prévio. | 3 |
+| 1.4.2 | Como professor, eu quero o conteúdo pedagógico e o gabarito dos desafios, para que eu saiba o que cada rodada ensina e como corrigir. | 4 |
+| 1.4.3 | Como professor, eu quero a versão final do manual revisada com o feedback dos playtests, para que ele seja claro e confiável. | 5 |
+
+## Tema 2. Aplicação offline, o "validador de prompts"
+
+### Épico 2.1. Protótipo de alta fidelidade
+
+| ID | História | Sprint |
+| --- | --- | --- |
+| 2.1.1 | Como estudante, eu quero uma tela simples para escrever meu prompt, para que eu o valide sem depender de internet. | 3 |
+| 2.1.2 | Como estudante, eu quero ver o resultado da validação com acertos e pontos a melhorar, para que eu aprenda com meus erros. | 4 |
+| 2.1.3 | Como professor, eu quero instruções de uso do app integradas ao jogo, para que eu use os dois juntos na aula. | 5 |
+
+### Épico 2.2. Lógica do validador offline
+
+| ID | História | Sprint |
+| --- | --- | --- |
+| 2.2.1 | Como cliente, eu quero a lógica de gabarito definida (critérios, pontuação e respostas esperadas por desafio), para que o validador simule uma IA sem internet. | 3 |
+| 2.2.2 | Como estudante, eu quero que o validador compare meu prompt com o padrão esperado e dê uma nota, para que eu saiba se está bom. | 4 |
+| 2.2.3 | Como estudante, eu quero que o validador aponte dados sensíveis e vieses no meu prompt, para que eu pratique ética e LGPD. | 4 |
+| 2.2.4 | Como professor, eu quero que o validador funcione 100% offline, para que eu o use em escolas sem conectividade. | 5 |
+
+## Tema 3. Gestão ScrumBan e entrega final
+
+### Épico 3.1. Fundação do ScrumBan
+
+| ID | História | Sprint |
+| --- | --- | --- |
+| 3.1.1 | Como cliente, eu quero os papéis da equipe definidos (PO, SM e Devs), para que eu saiba quem responde por quê. | 1 |
+| 3.1.2 | Como cliente, eu quero a visão do produto e o roadmap, para que eu entenda o rumo do projeto. | 1 → 2 |
+| 3.1.3 | Como cliente, eu quero um quadro Kanban com as colunas Backlog, A Fazer, Fazendo, Feedback e Pronto, mais limite de WIP, para que eu visualize o fluxo e evite gargalos. | 1 |
+| 3.1.4 | Como cliente, eu quero o backlog do produto organizado e priorizado, para que eu veja o que será entregue em cada sprint. | 2 |
+
+### Épico 3.2. Cerimônias e evidências
+
+Registro contínuo, em todas as sprints, das reuniões de planejamento, das weeklies, das revisões, das retrospectivas e dos incrementos (ver [sprints.md](sprints.md)).
+
+### Épico 3.3. Entrega final e apresentação
+
+| ID | História | Sprint |
+| --- | --- | --- |
+| 3.3.1 | Como cliente, eu quero o quadro Kanban completo, com o histórico de todas as sprints, para que eu comprove o uso do ScrumBan. | 5 |
