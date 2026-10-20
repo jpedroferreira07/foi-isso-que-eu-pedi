@@ -34,3 +34,32 @@ Resumo do que o Notion registrou em cada sprint: objetivo, histórias, weeklies,
 
 **Retrospectiva:** melhorar a organização, usar o Notion de forma correta e recuperar o que ficou pendente, evitando novas pendências nas próximas sprints.
 
+---
+
+## Sprint 2: Design do jogo
+
+**Objetivo:** ter o jogo ensinando a estrutura de um prompt (contexto, persona, tarefa, formato e instrução objetiva), com mecânicas fundamentadas em Björk et al. (2003); objetivo, regras, pontuação e feedback imediato definidos; backlog organizado e priorizado; um protótipo de baixa fidelidade submetido a um playtest interno inicial; e concluir as pendências da Sprint 1.
+
+**Histórias do Sprint Backlog**
+
+| História | Responsável | Critérios de aceite (DoD) |
+| --- | --- | --- |
+| 1.1.1 Estrutura do prompt | João Pedro Ferreira Afonso | Os 5 elementos do prompt estão descritos, cada um com pelo menos 1 exemplo; conteúdo aprovado pelo cliente. |
+| 1.2.1 Mecânicas de Björk | João Pedro Ferreira Afonso | Mecânicas listadas e ligadas aos padrões de Björk et al. (2003); referência completa registrada; coerência com o objetivo de aprendizagem validada pela equipe. |
+| 1.2.2 Objetivo, regras e pontuação | Alexia | Objetivo, regras e pontuação claros e curtos; feedback imediato descrito; regras compreendidas por alguém de fora da equipe. |
+| 1.3.1 Protótipo de baixa fidelidade | Bernardo V. | Cartões de papel e rascunho do tabuleiro prontos e utilizáveis; protótipo reflete as regras e a pontuação. |
+| 1.3.2 Playtest interno | (ver Revisão) | Playtest com a equipe, falhas registradas. |
+| 3.1.2 e 3.1.4 | Giovanni | Roadmap aprovado; backlog priorizado. |
+
+**Weekly**
+- João Pedro: descreveu os 5 elementos do prompt; estava fazendo as mecânicas ligadas aos padrões de Björk; sem impedimentos.
+- Alexia: escreveu regras e pontuação de forma clara e curta; sem impedimentos.
+- Bernardo V.: fez o protótipo de baixa fidelidade e registrou.
+
+**Revisão:** entregues 1.1.1, 1.2.1, 1.2.2, 1.3.1, 3.1.2 e 3.1.4. A 1.3.2 (playtest) ficou pendente.
+**Feedback do cliente:** estava tudo certo, seguir para a Sprint 3.
+
+**Retrospectiva:** é preciso se comprometer mais em testar o jogo para desenvolver com eficiência; o playtest inicial deve ser feito com toda a equipe o quanto antes.
+
+**Incremento:** mecânicas de Björk ([docs/Mecanicas_de_Bjork.pdf](Mecanicas_de_Bjork.pdf)), primeira versão do tabuleiro, das cartas de problema e de poder, dos versos, dos robôs e da ficha do avaliador, e a primeira versão do validador.
+
