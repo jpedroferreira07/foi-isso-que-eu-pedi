@@ -63,3 +63,36 @@ Resumo do que o Notion registrou em cada sprint: objetivo, histórias, weeklies,
 
 **Incremento:** mecânicas de Björk ([docs/Mecanicas_de_Bjork.pdf](Mecanicas_de_Bjork.pdf)), primeira versão do tabuleiro, das cartas de problema e de poder, dos versos, dos robôs e da ficha do avaliador, e a primeira versão do validador.
 
+---
+
+## Sprint 3: Prototipagem e conteúdo
+
+**Objetivo:** ter o protótipo de média fidelidade (cartas impressas e regras refinadas), a primeira versão do Manual do Professor, um esboço do suporte digital offline e concluir o playtest interno pendente da Sprint 2.
+
+**Histórias do Sprint Backlog**
+
+| História | Responsável | Critérios de aceite (DoD) |
+| --- | --- | --- |
+| 1.1.2 Conceitos, dores, necessidades, localização e documentos | João Pedro Ferreira Afonso | Elementos incluídos no jogo, cada um com pelo menos 1 exemplo adaptado à realidade da escola; aprovado pelo cliente. |
+| 1.1.3 Ética (vieses, dados sensíveis, boas práticas e LGPD) | Bernardo N. | Temas descritos e incluídos no jogo, cada um com pelo menos 1 situação prática; validado pelo cliente. |
+| 1.1.4 Níveis de dificuldade | Alexia | Níveis do básico ao avançado, com critérios de progressão e pelo menos 1 desafio por nível. |
+| 1.2.3 Jogo em grupo com papéis | Bernardo V. | Papéis definidos, regras de cooperação e pontuação coletiva claras; dinâmica testada com um grupo. |
+| 1.3.3 Cartas impressas e regras refinadas | Bernardo V. | Utilizáveis sem internet; refletem os ajustes do playtest da Sprint 2; protótipo registrado em foto ou escaneamento. |
+| 1.4.1 Manual do Professor | Vitor | Regras e passo a passo da aula, em linguagem clara para um professor sem treinamento prévio. |
+| 2.1.1 Tela para escrever o prompt | Vitor | Tela simples, funcionando sem internet, testada por alguém de fora da equipe. |
+| 2.2.1 Lógica de gabarito | Vitor | Critérios, pontuação e respostas esperadas por desafio; o validador simula a avaliação de uma IA sem internet. |
+| 1.3.2 Playtest interno | Bernardo N. | Playtest com a equipe; falhas e dúvidas registradas; ajustes listados. |
+
+**Weekly**
+- João Pedro: colocou conceitos, dores, necessidades, localização e documentos como elementos do prompt do jogo; sem impedimentos.
+- Bernardo N.: incluiu os temas de ética no jogo; iria realizar o playtest com a equipe.
+- Alexia: definiu os níveis de dificuldade; estava descrevendo os desafios.
+- Bernardo V.: definiu os papéis dos jogadores, imprimiu as cartas e ajustou as regras; precisava testar a dinâmica com outro grupo.
+
+**Revisão:** entregues todas as 9 histórias (1.1.2, 1.1.3, 1.1.4, 1.2.3, 1.3.3, 1.4.1, 2.1.1, 2.2.1 e 1.3.2).
+**Feedback do cliente:** a ordem para dar nota ao prompt é Contexto, Persona, Tarefa e Formato.
+
+**Retrospectiva:** a equipe conseguiu concluir tudo corretamente, só precisando ajustar pequenas coisas a partir do feedback do cliente. Agora o foco é a produção e o refinamento do jogo e das mecânicas.
+
+**Incremento:** Manual do Professor (primeira versão), vídeo do manual, tabuleiro A3 v2, cartas de problema e de superpoder v3, peças dos robôs e validador v2.
+

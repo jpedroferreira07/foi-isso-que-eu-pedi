@@ -61,3 +61,4 @@ Estes arquivos são do professor e da disciplina, ou de terceiros. Estão em `do
 ![Calendário das sprints](material-de-referencia/quadro-sprints.png)
 ![Etapas e papéis no Scrum](material-de-referencia/papeis-da-equipe.png)
 ![Régua de motivadores (exemplo NAVE Rio 2023)](material-de-referencia/moving-motivators.png)
+![Estrutura avançada de um prompt (referência)](material-de-referencia/revisao-sprint3.jpeg)
