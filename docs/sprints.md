@@ -96,3 +96,33 @@ Resumo do que o Notion registrou em cada sprint: objetivo, histórias, weeklies,
 
 **Incremento:** Manual do Professor (primeira versão), vídeo do manual, tabuleiro A3 v2, cartas de problema e de superpoder v3, peças dos robôs e validador v2.
 
+---
+
+## Sprint 4: Integração e validação
+
+**Objetivo:** ter o MVP do jogo analógico pronto para playtest externo, com conteúdo pedagógico e gabarito dos desafios; o protótipo funcional do validador offline (comparação com o padrão esperado, nota, acertos e pontos a melhorar, e identificação de dados sensíveis e vieses); e o playtest com outra equipe, com coleta de feedback.
+
+**Histórias do Sprint Backlog**
+
+| História | Responsável | Critérios de aceite (DoD) |
+| --- | --- | --- |
+| 1.3.4 MVP do jogo analógico | Vitor | Cartas, tabuleiro e regras finais utilizáveis sem internet; testado de ponta a ponta; aprovado pelo cliente. |
+| 1.3.5 Playtest com outra equipe | Bernardo N. | Playtest com pelo menos uma outra equipe; feedback registrado; ajustes aplicados. |
+| 1.4.2 Conteúdo pedagógico e gabarito | Alexia | O que cada rodada ensina, resposta esperada e como corrigir; compreensível por um professor sem treinamento. |
+| 2.1.2 Tela de resultado da validação | Alexia | Exibe acertos e pontos a melhorar, sem depender de internet. |
+| 2.2.2 Comparação com o padrão e nota | João Pedro Ferreira Afonso | Compara o prompt com o gabarito; nota segue os critérios definidos; validado com pelo menos 3 exemplos de prompts. |
+| 2.2.3 Dados sensíveis e vieses | Bernardo V. | Alertas com orientação curta de boas práticas e LGPD; testado com exemplos com e sem dados sensíveis ou vieses. |
+
+**Weekly**
+- João Pedro: desenvolvendo o validador que compara o prompt com o padrão esperado e atribui nota.
+- Bernardo N.: o playtest externo não aconteceu, porque o professor o deixou para a semana seguinte; iria priorizar e aplicar os ajustes com base no feedback.
+- Alexia: escrevendo o conteúdo pedagógico e a tela de resultado.
+- Bernardo V.: desenvolvendo o validador que identifica dados sensíveis e vieses.
+
+**Revisão:** entregues 1.3.4, 1.4.2, 2.1.2, 2.2.2 e 2.2.3. A 1.3.5 (playtest externo) ficou pendente.
+**Feedback do cliente:** tudo certo.
+
+**Retrospectiva:** nada a ser melhorado.
+
+**Incremento:** foto da Sprint 4 e validador v2.
+
