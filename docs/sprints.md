@@ -126,3 +126,32 @@ Resumo do que o Notion registrou em cada sprint: objetivo, histórias, weeklies,
 
 **Incremento:** foto da Sprint 4 e validador v2.
 
+---
+
+## Sprint 5: Entrega final
+
+**Objetivo:** ter o jogo analógico finalizado e usável sem internet; a versão final do Manual do Professor revisada com o feedback dos playtests; o validador funcionando 100% offline e apresentado; as instruções de uso do app integradas ao jogo; o quadro Kanban completo com o histórico de todas as sprints; e fazer o playtest que ficou pendente.
+
+**Histórias do Sprint Backlog**
+
+| História | Responsável | Critérios de aceite (DoD) |
+| --- | --- | --- |
+| 1.3.6 Jogo analógico finalizado | Bernardo V. | Cartas, tabuleiro e regras finais; ajustes do playtest da Sprint 4 aplicados; aprovado pelo cliente. |
+| 1.4.3 Manual final | João Pedro Ferreira Afonso | Versão final revisada com o feedback dos playtests; linguagem clara para um professor sem treinamento. |
+| 2.1.3 Instruções do app integradas ao jogo | Alexia | No manual e/ou nas cartas de regras; permitem usar jogo e app juntos sem apoio da equipe. |
+| 2.2.4 Validador 100% offline | João Pedro Ferreira Afonso | Sem nenhuma chamada à internet; testado em dispositivo sem conectividade (prompt, nota, resultado e alertas). |
+| 3.3.1 Quadro Kanban completo | Giovanni | Histórico de todas as sprints registrado; histórias com status e responsável. |
+| 1.3.5 Playtest com outra equipe | Bernardo N. | Playtest com outra equipe, feedback registrado e ajustes aplicados. |
+
+**Weekly**
+- João Pedro: revisando a versão final do manual e finalizando o validador para funcionar 100% offline; iria testá-lo em um dispositivo sem conectividade.
+- Bernardo N.: organizando o playtest pendente e planejando aplicar os ajustes do feedback.
+- Alexia: integrando as instruções do app ao jogo; iria testar a integração com alguém de fora.
+- Bernardo V.: finalizando o jogo analógico com os ajustes do playtest da Sprint 4.
+
+**Revisão:** entregues todas as 6 histórias (1.3.6, 1.4.3, 2.1.3, 2.2.4, 3.3.1 e 1.3.5).
+
+**Retrospectiva:** nada a ser melhorado.
+
+**Incremento:** foto do jogo montado e validador v2 final.
+
