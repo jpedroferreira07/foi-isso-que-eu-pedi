@@ -155,3 +155,8 @@ Resumo do que o Notion registrou em cada sprint: objetivo, histórias, weeklies,
 
 **Incremento:** foto do jogo montado e validador v2 final.
 
+---
+
+## Sprint 6: Ajustes e apresentação
+
+Ajustes finais e apresentação do jogo, em 17/11/2026, demonstrando o jogo e as evidências do uso do ScrumBan.
