@@ -41,6 +41,17 @@ Um único arquivo HTML que roda no navegador, **sem nenhuma chamada à internet*
 
 Para usar, baixe [validador-offline/validador-v2.html](validador-offline/validador-v2.html) e abra no Chrome ou no Safari.
 
+## Apresentação final
+
+Em **17/11/2026** a equipe apresentou o jogo e o validador ao **professor e à banca**, com uma partida de demonstração e o app projetado na tela. As fotos e o vídeo do dia estão em [apresentacao/](apresentacao/).
+
+| | | |
+| --- | --- | --- |
+| ![Tutorial do app projetado: rolar, comprar, cartas e escrever](apresentacao/01-tutorial-do-app-na-tela.jpg) | ![Tabuleiro com cartas, dados e peões](apresentacao/02-tabuleiro-e-cartas.jpg) | ![Tabuleiro e uma carta de problema](apresentacao/03-tabuleiro-e-carta-de-problema.jpg) |
+| Tutorial do app (rolar, comprar, cartas, escrever) | Tabuleiro, cartas e peões | Tabuleiro e carta de problema |
+
+Também há um [vídeo do dia](apresentacao/registro-da-apresentacao.mp4).
+
 ## O processo (ScrumBan)
 
 | Documento | Conteúdo |
@@ -78,6 +89,7 @@ foi-isso-que-eu-pedi/
 ├── manual-do-professor/  manual em PDF
 ├── validador-offline/    validador de prompts (HTML único, offline)
 ├── video-de-apresentacao/ vídeo de apresentação do manual
+├── apresentacao/         fotos e vídeo da apresentação final (17/11/2026)
 └── docs/                 origem do projeto, processo ScrumBan, roadmap, sprints e imagens
 ```
 

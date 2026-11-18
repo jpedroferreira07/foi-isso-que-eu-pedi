@@ -159,4 +159,4 @@ Resumo do que o Notion registrou em cada sprint: objetivo, histórias, weeklies,
 
 ## Sprint 6: Ajustes e apresentação
 
-Ajustes finais e apresentação do jogo, em 17/11/2026, demonstrando o jogo e as evidências do uso do ScrumBan.
+Ajustes finais e apresentação do jogo ao professor e à banca, em 17/11/2026, demonstrando o jogo e as evidências do uso do ScrumBan. Fotos e vídeo do dia em [apresentacao/](../apresentacao/).
