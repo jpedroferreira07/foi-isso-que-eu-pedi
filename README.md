@@ -34,7 +34,7 @@ O design das mecânicas se baseia nos **padrões de design de jogos** de Björk,
 
 ### Manual do Professor
 Regras e passo a passo da aula, para o professor conduzir o jogo sem treinamento prévio: [manual-do-professor/Manual_do_Professor_v2.pdf](manual-do-professor/Manual_do_Professor_v2.pdf).
-Há também um vídeo de apresentação em [video/](video/).
+Há também um vídeo de apresentação em [video-de-apresentacao/](video-de-apresentacao/).
 
 ### Validador de prompts offline
 Um único arquivo HTML que roda no navegador, **sem nenhuma chamada à internet**, e simula a avaliação de uma IA: compara o prompt com o gabarito do desafio, calcula a nota e aponta o que melhorar. Também alerta sobre **dados sensíveis** (como CPF), **vieses** e boas práticas de **LGPD**.
@@ -77,7 +77,7 @@ foi-isso-que-eu-pedi/
 ├── jogo-fisico/          tabuleiro, cartas, versos, robôs e ficha do avaliador
 ├── manual-do-professor/  manual em PDF
 ├── validador-offline/    validador de prompts (HTML único, offline)
-├── video/                vídeo de apresentação do manual
+├── video-de-apresentacao/ vídeo de apresentação do manual
 └── docs/                 origem do projeto, processo ScrumBan, roadmap, sprints e imagens
 ```
 
