@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Foi isso que eu pedi? | Jogo e validador de prompts offline</title>
+  <meta name="description" content="Jogo de tabuleiro e validador de prompts offline para ensinar Engenharia de Prompt Ética em escolas sem internet. Projeto da equipe Os Metodicamente Ágeis.">
+  <style>
+    :root {
+      --fundo: #f4f7fb;
+      --texto: #14213d;
+      --suave: #4a5a75;
+      --card: #ffffff;
+      --borda: #d6deeb;
+      --azul: #0f2742;
+      --destaque: #12808a;
+      --amarelo: #f2b705;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fundo: #0b1626;
+        --texto: #e8eefb;
+        --suave: #a9b7d0;
+        --card: #13233b;
+        --borda: #26405f;
+        --azul: #07101d;
+        --destaque: #38c4cf;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--fundo);
+      color: var(--texto);
+      line-height: 1.6;
+    }
+    a { color: var(--destaque); }
+    header {
+      background: var(--azul);
+      color: #fff;
+      padding: 56px 16px 48px;
+      text-align: center;
+      border-bottom: 6px solid var(--amarelo);
+    }
+    header p.etiqueta { margin: 0 0 8px; letter-spacing: .14em; text-transform: uppercase; font-size: .8rem; color: #9ad8de; }
+    header h1 { margin: 0 0 12px; font-size: clamp(2rem, 6vw, 3.2rem); line-height: 1.1; }
+    header p.sub { margin: 0 auto 28px; max-width: 40rem; color: #d3deef; font-size: 1.1rem; }
+    .botoes { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+    .botao {
+      display: inline-block;
+      padding: 14px 24px;
+      border-radius: 10px;
+      font-weight: 700;
+      text-decoration: none;
+      border: 2px solid var(--amarelo);
+    }
+    .botao.principal { background: var(--amarelo); color: #14213d; }
+    .botao.secundario { color: #fff; }
+    .botao:focus-visible, a:focus-visible, video:focus-visible { outline: 3px solid var(--destaque); outline-offset: 3px; }
+    main { max-width: 60rem; margin: 0 auto; padding: 8px 16px 56px; }
+    section { margin-top: 44px; }
+    h2 { margin: 0 0 8px; font-size: 1.5rem; }
+    section > p { margin: 0 0 16px; color: var(--suave); }
+    video { width: 100%; max-height: 70vh; border-radius: 12px; background: #000; border: 1px solid var(--borda); }
+    .grade { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--borda);
+      border-radius: 12px;
+      padding: 16px 18px;
+    }
+    .card a { font-weight: 700; }
+    .card span { display: block; color: var(--suave); font-size: .92rem; margin-top: 4px; }
+    .fotos { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); margin-top: 16px; }
+    .fotos img { width: 100%; height: 220px; object-fit: cover; border-radius: 10px; border: 1px solid var(--borda); }
+    footer { text-align: center; color: var(--suave); padding: 24px 16px 40px; border-top: 1px solid var(--borda); font-size: .95rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="etiqueta">Cidade-Prompt · Ano 2050</p>
+    <h1>Foi isso que eu pedi?</h1>
+    <p class="sub">Um jogo de tabuleiro e um validador de prompts que funciona sem internet, para ensinar Engenharia de Prompt Ética em escolas com conexão ruim.</p>
+    <div class="botoes">
+      <a class="botao principal" href="validador/">Abrir o validador de prompts</a>
+      <a class="botao secundario" href="https://github.com/jpedroferreira07/foi-isso-que-eu-pedi">Ver o projeto no GitHub</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="validador">
+      <h2>Validador de prompts offline</h2>
+      <p>Simula a avaliação de uma IA: compara o prompt com o gabarito do desafio, calcula a nota e avisa sobre dados sensíveis, vieses e boas práticas de LGPD. Depois de aberto, não faz nenhuma chamada à internet. Para usar em sala sem conexão, abra esta página uma vez e salve o arquivo, ou baixe o <a href="validador/index.html" download="validador-foi-isso-que-eu-pedi.html">validador em um único arquivo HTML</a>.</p>
+    </section>
+
+    <section id="video">
+      <h2>Vídeo do Manual do Professor</h2>
+      <p>Apresentação do manual: regras e passo a passo da aula.</p>
+      <video controls preload="metadata" playsinline aria-label="Vídeo do Manual do Professor">
+        <source src="video-de-apresentacao/Manual_do_Professor_video.mp4" type="video/mp4">
+        Seu navegador não toca este vídeo. <a href="video-de-apresentacao/Manual_do_Professor_video.mp4">Baixe o arquivo</a>.
+      </video>
+    </section>
+
+    <section id="jogo">
+      <h2>Jogo físico para imprimir</h2>
+      <p>Tudo o que é preciso para montar o jogo sem internet.</p>
+      <div class="grade">
+        <div class="card"><a href="jogo-fisico/Tabuleiro_A3_v2.pdf">Tabuleiro A3</a><span>Cidade-Prompt, casas 1 a 40</span></div>
+        <div class="card"><a href="jogo-fisico/Cartas_de_Problema_v3.pdf">Cartas de problema</a><span>Níveis fácil, médio e difícil</span></div>
+        <div class="card"><a href="jogo-fisico/Cartas_de_Superpoder_v3.pdf">Cartas de superpoder</a><span>Para virar a partida</span></div>
+        <div class="card"><a href="jogo-fisico/04_Versos.pdf">Versos das cartas</a><span>Para imprimir frente e verso</span></div>
+        <div class="card"><a href="jogo-fisico/Pecas_Robos.png">Os 4 robôs</a><span>Peças dos jogadores</span></div>
+        <div class="card"><a href="jogo-fisico/06_Ficha_Avaliador.pdf">Ficha do avaliador</a><span>Pesos por nível</span></div>
+        <div class="card"><a href="manual-do-professor/Manual_do_Professor_v2.pdf">Manual do Professor</a><span>Regras e roteiro da aula (PDF)</span></div>
+      </div>
+    </section>
+
+    <section id="apresentacao">
+      <h2>Apresentação final</h2>
+      <p>Registros do dia em que a equipe apresentou o jogo ao professor e à banca.</p>
+      <video controls preload="metadata" playsinline aria-label="Vídeo da apresentação final">
+        <source src="apresentacao/registro-da-apresentacao.mp4" type="video/mp4">
+        <a href="apresentacao/registro-da-apresentacao.mp4">Baixe o vídeo</a>.
+      </video>
+      <div class="fotos">
+        <img src="apresentacao/01-tutorial-do-app-na-tela.jpg" alt="Tutorial do app projetado na tela: rolar, comprar, cartas e escrever" loading="lazy">
+        <img src="apresentacao/02-tabuleiro-e-cartas.jpg" alt="Tabuleiro com cartas, dados e peões" loading="lazy">
+        <img src="apresentacao/03-tabuleiro-e-carta-de-problema.jpg" alt="Tabuleiro e uma carta de problema" loading="lazy">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Projeto da disciplina Métodos Ágeis de Desenvolvimento de Software (Ibmec), feito com ScrumBan pela equipe <strong>Os Metodicamente Ágeis</strong>.
+  </footer>
+</body>
+</html>
