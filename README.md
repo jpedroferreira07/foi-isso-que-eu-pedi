@@ -6,6 +6,11 @@ Projeto em grupo da disciplina **Métodos Ágeis de Desenvolvimento de Software*
 
 ![Jogo montado: tabuleiro, Manual do Professor e cartas](docs/imagens/foto-jogo-montado.png)
 
+## Publicação
+
+- Link do site publicado: https://jpedroferreira07.github.io/foi-isso-que-eu-pedi/
+- Validador de prompts direto no navegador: https://jpedroferreira07.github.io/foi-isso-que-eu-pedi/validador/
+
 ## Como o projeto surgiu
 
 Este não é um produto de mercado: é um **projeto de faculdade**. O professor apresentou um desafio, e a turma tinha de resolvê-lo trabalhando como um time ágil, com evidências visíveis do processo.
@@ -34,7 +39,7 @@ O design das mecânicas se baseia nos **padrões de design de jogos** de Björk,
 
 ### Manual do Professor
 Regras e passo a passo da aula, para o professor conduzir o jogo sem treinamento prévio: [manual-do-professor/Manual_do_Professor_v2.pdf](manual-do-professor/Manual_do_Professor_v2.pdf).
-Há também um vídeo de apresentação em [video-de-apresentacao/](video-de-apresentacao/).
+O vídeo de apresentação está em [video-de-apresentacao/](video-de-apresentacao/). Como o GitHub não toca arquivos grandes, [assista pelo site](https://jpedroferreira07.github.io/foi-isso-que-eu-pedi/#video).
 
 ### Validador de prompts offline
 Um único arquivo HTML que roda no navegador, **sem nenhuma chamada à internet**, e simula a avaliação de uma IA: compara o prompt com o gabarito do desafio, calcula a nota e aponta o que melhorar. Também alerta sobre **dados sensíveis** (como CPF), **vieses** e boas práticas de **LGPD**.
@@ -50,7 +55,7 @@ Em **17/11/2026** a equipe apresentou o jogo e o validador ao **professor e à b
 | ![Tutorial do app projetado: rolar, comprar, cartas e escrever](apresentacao/01-tutorial-do-app-na-tela.jpg) | ![Tabuleiro com cartas, dados e peões](apresentacao/02-tabuleiro-e-cartas.jpg) | ![Tabuleiro e uma carta de problema](apresentacao/03-tabuleiro-e-carta-de-problema.jpg) |
 | Tutorial do app (rolar, comprar, cartas, escrever) | Tabuleiro, cartas e peões | Tabuleiro e carta de problema |
 
-Também há um [vídeo do dia](apresentacao/registro-da-apresentacao.mp4).
+Também há um [vídeo do dia](https://jpedroferreira07.github.io/foi-isso-que-eu-pedi/#apresentacao) no site, e o arquivo em [apresentacao/registro-da-apresentacao.mp4](apresentacao/registro-da-apresentacao.mp4).
 
 ## O processo (ScrumBan)
 
@@ -90,7 +95,9 @@ foi-isso-que-eu-pedi/
 ├── validador-offline/    validador de prompts (HTML único, offline)
 ├── video-de-apresentacao/ vídeo de apresentação do manual
 ├── apresentacao/         fotos e vídeo da apresentação final (17/11/2026)
-└── docs/                 origem do projeto, processo ScrumBan, roadmap, sprints e imagens
+├── docs/                 origem do projeto, processo ScrumBan, roadmap, sprints e imagens
+├── index.html            página inicial do site (GitHub Pages)
+└── .github/workflows/    publicação automática no GitHub Pages
 ```
 
 ## Créditos e material de terceiros
